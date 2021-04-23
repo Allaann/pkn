@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whiteblurred"
+    tools:context=".ListFragment">
+
+    <ImageView
+        android:id="@+id/pictop"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_marginTop="-40dp"
+        android:layout_marginLeft="200dp"
+        android:src="@drawable/header_bg" />
+    <ImageView
+        android:id="@+id/picleft"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:src="@drawable/pichomeleft" />
+    <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_back" />
+
+    <TextView
+        android:id="@+id/Tittle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:gravity="left"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/back"
+        android:fontFamily="@font/poppins"
+        android:textColor="#000"
+        android:textSize="28dp"
+        android:text="List Kejadian" />
+
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefresh"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/Tittle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical">
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+</RelativeLayout>

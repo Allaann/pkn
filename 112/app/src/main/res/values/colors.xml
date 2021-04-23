@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="whiteblurred">#efefef</color>
+    <color name="primary">#1f2f98</color>
+    <color name="main">#fcfff3</color>
+    <color name="accent1">#efc71d</color>
+    <color name="accent2">#1ca7ec</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#FFC006</color>
+    <color name="colorPrima">#FFF000</color>
+    <color name="backgroundcolor">#fcfcfc</color>
+    <color name="lightgrey">#ededed</color>
+    <color name="deeppurple">#7c4dff</color>
+    <color name="yello">#ffb300</color>
+    <color name="green">#00bfa5</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="address">#2F7092</color>
+    <color name="followers">#0D5D98</color>
+    <color name="solidCircle">#AAFFFFFF</color>
+    <color name="circleBorder">#50FFFFFF</color>
+    <color name="gradEnd">#67EFC8</color>
+    <color name="gradStart">#63C9FF</color>
+    <color name="followersBg">#65DCE5</color>
+    <color name="followingBg">#49BEFF</color>
+    <color name="grey">#E5E5E5</color>
+    <color name="colorPrimaryPUR">#6200EE</color>
+    <color name="colorPrimaryDark">#005bea</color>
+    <color name="darkt">#90A9A9A9</color>
+    <color name="colorWhite">#FFFFFF</color>
+
+</resources>

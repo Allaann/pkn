@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_back" />
+    <TextView
+        android:id="@+id/Tittle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-30dp"
+        android:gravity="center"
+        android:layout_below="@id/back"
+        android:fontFamily="@font/poppins"
+        android:textColor="#000"
+        android:textSize="22dp"
+        android:text="Profile" />
+
+    <ImageView
+        android:id="@+id/boxNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Tittle"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/picprofil" />
+
+    <TextView
+        android:id="@+id/textNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="35dp"
+        android:layout_below="@id/Tittle"
+        android:fontFamily="@font/poppins"
+        android:textColor="#ffffff"
+        android:textSize="26dp"
+        android:text="Nama" />
+
+    <TextView
+        android:id="@+id/profileNama"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-5dp"
+        android:gravity="center"
+        android:layout_marginLeft="80dp"
+        android:layout_below="@id/textNama"
+        android:fontFamily="@font/montserrat"
+        android:textColor="#fff"
+        android:textSize="15dp"
+        android:text="NAMA" />
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/Tittle"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="118dp"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/boxId"
+            android:layout_width="180dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/image"
+            android:paddingTop="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="@dimen/cardview_default_radius"
+            android:fontFamily="@font/poppinssemi"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:text="ID"
+            android:textSize="30dp"
+            android:background="@drawable/radius_box"
+            android:elevation="5dp"
+            />
+
+        <TextView
+            android:id="@+id/profileId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/boxId"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="-35dp"
+            android:fontFamily="@font/montserrat"
+            android:text="12"
+            android:textColor="@color/grey"
+            android:textSize="15sp"
+            android:elevation="5dp"
+            />
+
+        <TextView
+            android:id="@+id/BoxInstansi"
+            android:layout_width="180dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/image"
+            android:paddingTop="20dp"
+            android:layout_toRightOf="@+id/boxId"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="@dimen/cardview_default_radius"
+            android:fontFamily="@font/poppinssemi"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:text="INSTANSI"
+            android:textSize="30dp"
+            android:background="@drawable/radius_box"
+            android:elevation="5dp"
+            />
+
+        <TextView
+            android:id="@+id/profileInstansi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@id/boxId"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="-35dp"
+            android:fontFamily="@font/montserrat"
+            android:text="DISKOMINFO"
+            android:textColor="@color/grey"
+            android:textSize="15sp"
+            android:elevation="5dp"
+            />
+
+        <ImageView
+            android:id="@+id/picleft"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="420dp"
+            android:src="@drawable/pichomeleft" />
+
+    </RelativeLayout>
+
+
+</FrameLayout>
